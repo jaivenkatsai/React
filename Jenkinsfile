@@ -10,7 +10,9 @@ pipeline {
                 sh 'cd my-app'
             }
         }
-        stage('Publish ')
+        stage('Publish Artifacts') {
+            
+        }
     
     }
     
