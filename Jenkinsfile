@@ -12,11 +12,10 @@ pipeline {
         }
         stage('Publish Artifacts') {
             steps {
-                sh
+                sh 'npm start'
             }
         }
     
-    }
-    
+    }   
 
 }
