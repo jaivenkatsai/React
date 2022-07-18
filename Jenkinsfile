@@ -9,8 +9,8 @@ pipeline {
         }
         stage("Deploy") {
             steps {
-                sh "sudo rm -rf /var/www/my-app"
-                sh "sud"
+                sh ""
+                sh ""
             }
         }
     }
