@@ -1,3 +1,7 @@
 pipeline {
-    agent 
+    agent {
+        node {
+            
+        }
+    }
 }
