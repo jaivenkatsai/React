@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage(one){
             steps {
-                sh 'npx create-react-app my-app'
+                sh 'create-react-app my-app'
             }
         }
         stage(two){
