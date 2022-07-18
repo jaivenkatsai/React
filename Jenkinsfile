@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Prepare Artifact') {
             steps {
-                sh 'cd '
+                sh 'cd my-app'
             }
         }
     }
