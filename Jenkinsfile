@@ -10,7 +10,7 @@ pipeline {
         stage("Deploy") {
             steps {
                 sh "cd React"
-                sh ""
+                sh "npm start"
             }
         }
     }
