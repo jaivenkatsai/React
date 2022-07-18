@@ -1,21 +1,17 @@
 pipeline {
-    agent {
-        node {
-            lable 'NODEJS'
+     agent any
+     stages {
+        stage("Build") {
+            steps {
+                sh "sudo npm install"
+                sh "sudo npm run build"
+            }
+        }
+        stage("Deploy") {
+            steps {
+                sh "sudo rm -rf /var/www/jenkins-react-app"
+                sh "sudo cp -r ${WORKSPACE}/build/ /var/www/jenkins-react-app/"
+            }
         }
     }
-    stages {
-        stage('Prepare Artifact') {
-            steps {
-                sh 'cd React'
-            }
-        }
-        stage('Publish Artifacts') {
-            steps {
-                sh 'npm start'
-            }
-        }
-    
-    }   
-
 }
