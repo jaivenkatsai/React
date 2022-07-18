@@ -11,7 +11,9 @@ pipeline {
             }
         }
         stage('Publish Artifacts') {
-            
+            steps {
+                sh
+            }
         }
     
     }
