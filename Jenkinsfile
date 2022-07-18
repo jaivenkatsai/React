@@ -5,7 +5,7 @@ pipeline {
         }
     }
     stages {
-        stage(prepare Artifac)
+        stage(Prepare Artifac)
     }
     
 
