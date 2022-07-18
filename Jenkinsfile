@@ -10,6 +10,8 @@ pipeline {
                 sh 'cd my-app'
             }
         }
+        stage()
+    
     }
     
 
