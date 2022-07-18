@@ -10,7 +10,7 @@ pipeline {
                 sh 'cd my-app'
             }
         }
-        stage('')
+        stage('Publish ')
     
     }
     
