@@ -4,9 +4,9 @@ pipeline {
             lable 'NODEJS'
         }
     }
-    stages 
-    {
+    stages {
         
     }
+    
 
 }
