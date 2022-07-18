@@ -6,7 +6,9 @@ pipeline {
     }
     stages {
         stage('Prepare Artifact') {
-            
+            steps {
+                ''
+            }
         }
     }
     
