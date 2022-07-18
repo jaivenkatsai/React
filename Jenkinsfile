@@ -9,7 +9,7 @@ pipeline {
         }
         stage("Deploy") {
             steps {
-                sh "cd "
+                sh "cd React"
                 sh ""
             }
         }
