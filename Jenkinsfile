@@ -50,7 +50,9 @@ pipeline {
         //     }
         // }
         stage(exporing) {
-            steps 
+            steps {
+                sh ''
+            }
         }
         
         
