@@ -30,7 +30,9 @@ pipeline {
             }
         }
         stage('Three') {
-            
+            steps {
+                sh ''
+            }
         }
     }
 }
