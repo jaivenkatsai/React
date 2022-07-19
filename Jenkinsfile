@@ -51,7 +51,7 @@ pipeline {
         }
         stage(deploy){
             steps {
-                
+                sh 'cd my-app'
             }
         }
     }
