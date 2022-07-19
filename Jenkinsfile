@@ -2,7 +2,8 @@ pipeline {
      agent any
      tools  {nodejs "node"}
         
-        stages('two') {
+        stages {
+            
             steps {
                 sh 'cd React'
                 sh 'npm start'
