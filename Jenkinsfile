@@ -51,7 +51,7 @@ pipeline {
         // }
         stage(exporing) {
             steps {
-                sh ''
+                sh 'export PATH=/usr/local/bin'
             }
         }
         
