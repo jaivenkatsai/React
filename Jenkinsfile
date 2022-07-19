@@ -36,9 +36,9 @@ pipeline {
         }
         stage('Four') {
             steps {
-                sh 'node -e "console.log('Running Node.js ' + process.version)'
+                sh 'node -e "console.log('Running Node.js ' + process.version)"'
             }
         }
-    
+        stage 
     }
 }
