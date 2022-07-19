@@ -5,7 +5,7 @@ pipeline {
         stages {
             stage('Build') {
             steps {
-                sh 'cd React'
+                sh ''
                 sh 'npm start'
             }
         }
