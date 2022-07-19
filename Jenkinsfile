@@ -24,7 +24,6 @@ pipeline {
                 sh '. ~/.nvm/nvm.sh'
             }
         }
-        
         stage(build) {
             steps {
                 sh 'sudo create-react-app my-app'
@@ -35,7 +34,11 @@ pipeline {
                 sh 'sudo cd my-app'
             }
         }
-        
+        stage('Three') {
+            steps {
+                sh 'npm install'
+            }
+        }
         stage('Run') {
             steps {
                 sh 'npm start'
