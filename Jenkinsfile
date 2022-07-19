@@ -49,5 +49,8 @@
 // }
 
 pipeline {
-    
+    agent any 
+    stages {
+        
+    }
 }
