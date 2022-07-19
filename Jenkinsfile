@@ -41,7 +41,7 @@ pipeline {
         // }
         stage(build) {
             steps {
-                sh 'npx create-react-app my-app'
+                sh 'create-react-app my-app'
             }
         }
         stage('Deploy'){
