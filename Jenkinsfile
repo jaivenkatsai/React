@@ -46,7 +46,7 @@ pipeline {
         }
         stage(build) {
             steps {
-                sh 'npx create-react'
+                sh 'npx create-react-app my-app'
             }
         }
     
