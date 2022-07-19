@@ -3,7 +3,9 @@ pipeline {
      tools  {nodejs "node"}
         
         stages {
-            stage('')
+            stage('Build') {
+                
+            }
             steps {
                 sh 'cd React'
                 sh 'npm start'
