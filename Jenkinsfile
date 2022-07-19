@@ -40,7 +40,9 @@ pipeline {
             }
         }
         stage('Five'){
-            
+            steps {
+                sh 'node'
+            }
         }
     }
 }
