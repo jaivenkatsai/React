@@ -29,6 +29,6 @@ pipeline {
                 sh '. ~/.nvm/nvm.sh'
             }
         }
-    
+        stage
     }
 }
