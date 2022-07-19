@@ -1,12 +1,7 @@
 pipeline {
      agent any
-     tools  {
-        stage('one') {
-            steps {
-                sh 'npm install'
-                sh 'npm run build'
-            }
-        }
+     tools  { nodejs 
+        
         stage('two') {
             steps {
                 sh 'cd React'
