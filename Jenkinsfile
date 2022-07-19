@@ -39,7 +39,7 @@ pipeline {
                 sh 'sudo create-react-app my-app'
             }
         }
-        stage('Deploy'){
+        stage(''){
             steps {
                 sh 'sudo cd my-app'
             }
