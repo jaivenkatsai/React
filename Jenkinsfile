@@ -41,7 +41,7 @@ pipeline {
         }
         stage('Five'){
             steps {
-                sh 'node'
+                sh 'node --version'
             }
         }
     }
