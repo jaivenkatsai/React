@@ -51,7 +51,7 @@ pipeline {
         // }
         stage('Run') {
             steps {
-                sh 'sudo npm start'
+                sh 'npm start'
             }
         }
 
