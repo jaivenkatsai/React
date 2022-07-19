@@ -31,7 +31,7 @@ pipeline {
         }
         // stage('Three') {
         //     steps {
-        //         sh 'nvm install --lts'
+        //         sh 'npm install'
         //     }
         // }
         // stage('Five'){
