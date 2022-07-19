@@ -45,7 +45,9 @@ pipeline {
             }
         }
         stage(build) {
-            steps 
+            steps {
+                sh 'npx create-react'
+            }
         }
     
     }
