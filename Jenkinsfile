@@ -29,11 +29,11 @@ pipeline {
                 sh '. ~/.nvm/nvm.sh'
             }
         }
-        // stage('Three') {
-        //     steps {
-        //         sh 'npm install'
-        //     }
-        // }
+        stage('Three') {
+            steps {
+                sh 'npm install'
+            }
+        }
         // stage('Five'){
         //     steps {
         //         sh 'node --version'
