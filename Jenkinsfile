@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Tow') {
             steps {
-                sh ''
+                sh '. ~/.nvm/nvm.sh'
             }
         }
     
