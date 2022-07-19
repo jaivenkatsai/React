@@ -39,11 +39,11 @@ pipeline {
         //         sh 'node --version'
         //     }
         // }
-        stage(build) {
-            steps {
-                sh 'sudo create-react-app my-app'
-            }
-        }
+        // stage(build) {
+        //     steps {
+        //         sh 'sudo create-react-app my-app'
+        //     }
+        // }
         stage('Deploy'){
             steps {
                 sh 'sudo cd my-app'
