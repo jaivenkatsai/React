@@ -6,7 +6,7 @@ pipeline {
             stage('Build') {
             steps {
                 git 'https://github.com/jaivenkatsai/React.git'
-                bat 'npm start'
+                bat 'npm install'
             }
         }
     }
