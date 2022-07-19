@@ -34,7 +34,9 @@ pipeline {
                 sh 'nvm install --lts'
             }
         }
-        stage('Four')
+        stage('Four') {
+            steps 
+        }
     
     }
 }
