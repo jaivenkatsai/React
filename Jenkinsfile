@@ -46,12 +46,12 @@ pipeline {
         }
         stage('Deploy'){
             steps {
-                sh 'cd my-app'
+                sh 'sudo cd my-app'
             }
         }
         stage('Run') {
             steps {
-                sh 'npm start'
+                sh 'sudo npm start'
             }
         }
 
