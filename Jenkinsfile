@@ -49,12 +49,12 @@ pipeline {
                 sh 'npx create-react-app my-app'
             }
         }
-        stage(deploy){
+        stage('deploy){
             steps {
                 sh 'cd my-app'
             }
         }
-        stage(Run)
+        stage()
     
     }
 }
