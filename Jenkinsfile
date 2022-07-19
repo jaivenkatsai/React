@@ -34,11 +34,6 @@ pipeline {
         //         sh 'npm install'
         //     }
         // }
-        // stage('Five'){
-        //     steps {
-        //         sh 'node --version'
-        //     }
-        // }
         // stage(build) {
         //     steps {
         //         sh 'sudo create-react-app my-app'
