@@ -51,7 +51,7 @@ pipeline {
         // }
         stage(exporing) {
             steps {
-                sh 'export PATH=/var/lib/jenkins/workspace/react-app-1@tmp/durable-5761d7ac/script.sh'
+                sh 'export PATH=/usr/local/bin'
             }
         }
         
