@@ -9,8 +9,8 @@ pipeline {
         }
         stage(two) {
             steps {
-                sh 'cd React
-                sh "npm start"
+                sh 'cd React'
+                sh npm start
             }
         }
     }
