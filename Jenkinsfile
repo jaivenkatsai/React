@@ -34,11 +34,11 @@ pipeline {
         //         sh 'nvm install --lts'
         //     }
         // }
-        stage('Five'){
-            steps {
-                sh 'node --version'
-            }
-        }
+        // stage('Five'){
+        //     steps {
+        //         sh 'node --version'
+        //     }
+        // }
         stage(build) {
             steps {
                 sh 'npx create-react-app my-app'
