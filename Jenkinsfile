@@ -34,11 +34,6 @@ pipeline {
                 sh 'nvm install --lts'
             }
         }
-        stage('Four') {
-            steps {
-                sh 'node -e "console.log('Running Node.js ' + process.version)"'
-            }
-        }
         stage('Five'){
             steps {
                 sh 'node --version'
