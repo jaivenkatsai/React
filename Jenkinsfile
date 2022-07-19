@@ -7,7 +7,7 @@ pipeline {
                 sh "sudo npm run build"
             }
         }
-        stage("Starting") {
+        stage("two") {
             steps {
                 sh "cd React"
                 sh "npm start"
