@@ -49,7 +49,9 @@ pipeline {
         //         sh 'sudo cd my-app'
         //     }
         // }
-        stage
+        stage(exporing) {
+            
+        }
         
         
         stage('Run') {
