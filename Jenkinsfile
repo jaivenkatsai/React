@@ -44,5 +44,7 @@ pipeline {
                 sh 'node --version'
             }
         }
+        stage
+    
     }
 }
