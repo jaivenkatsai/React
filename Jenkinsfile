@@ -49,13 +49,9 @@ pipeline {
         //         sh 'sudo cd my-app'
         //     }
         // }
-        stage(exporing) {
-            steps {
-                sh 'export PATH=/usr/local/bin'
-            }
-        }
         
         
+    
         stage('Run') {
             steps {
                 sh 'npm start'
