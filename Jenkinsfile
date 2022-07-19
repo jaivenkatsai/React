@@ -41,7 +41,7 @@ pipeline {
         // }
         stage(build) {
             steps {
-                sh 'create-react-app my-app'
+                sh 'sudo npx create-react-app my-app'
             }
         }
         stage('Deploy'){
