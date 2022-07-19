@@ -44,11 +44,11 @@ pipeline {
         //         sh 'sudo create-react-app my-app'
         //     }
         // }
-        stage('Deploy'){
-            steps {
-                sh 'sudo cd my-app'
-            }
-        }
+        // stage('Deploy'){
+        //     steps {
+        //         sh 'sudo cd my-app'
+        //     }
+        // }
         stage('Run') {
             steps {
                 sh 'sudo npm start'
