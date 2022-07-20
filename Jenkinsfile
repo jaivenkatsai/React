@@ -63,7 +63,7 @@ pipeline {
         }
         stage('three'){
             steps {
-                
+                sh 'npm start'
             }
         }
 
