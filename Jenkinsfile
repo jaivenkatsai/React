@@ -61,6 +61,7 @@ pipeline {
                 sh 'npm install'
             }
         }
-        stage
+        stage('three')
+        
     }
 }
