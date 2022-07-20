@@ -61,6 +61,6 @@ pipeline {
                 sh 'npm install'
             }
         }
-    
+        stage
     }
 }
