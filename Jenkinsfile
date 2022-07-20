@@ -53,7 +53,7 @@ pipeline {
     stages {
         stage('one') {
            steps {
-               sh 'cd my'
+               sh 'cd my-app'
            }
         }
     }
