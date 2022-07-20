@@ -66,6 +66,5 @@ pipeline {
                 sh 'npm start'
             }
         }
-
     }
 }
