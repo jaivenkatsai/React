@@ -56,7 +56,11 @@ pipeline {
                sh 'cd my-app'
            }
         }
-        stage()
+        stage('two') {
+            steps {
+                
+            }
+        }
     
     }
 }
