@@ -53,7 +53,7 @@ pipeline {
     stages {
         stage('one') {
            steps {
-               sh 'npm run build'
+               sh ''
            }
         }
     }
